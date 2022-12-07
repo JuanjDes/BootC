@@ -3,6 +3,7 @@ public class Main {
     {
         int numeroIf = -125;
         int numeroWhile = 0;
+        int numeroDoWhile = 3;
         String estacion = "ni idea";
 
         // Ejemplo con bucle IF
@@ -20,8 +21,8 @@ public class Main {
         // Ejemplo con bucle DoWhile
         System.out.println("----------DoWhile------------------");
         do
-        { System.out.println(numeroWhile);
-          numeroWhile ++; } while (numeroWhile < 3);
+        { System.out.println(numeroDoWhile);
+          numeroDoWhile ++; } while (numeroDoWhile < 3);
 
         // Ejemplo con bucle FOR
         System.out.println("----------FOR------------------");
