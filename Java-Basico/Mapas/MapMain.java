@@ -10,10 +10,10 @@ public class MapMain {
 
     public static void main(String[] args) {
 
-        // Vamos a crear un mapa de pares de clave - valor en el que almacenaremos personas
+        // Vamos a crear un mapa (personas) de pares de clave - valor en el que almacenaremos datos de personas
         Map<String, String> personas = new HashMap<>();
 
-        // También podemos crear un mapa de un objeto. En este caso el objeto MapCoche de la clase MapCoche
+        // También podemos crear un mapa (coche) de un objeto. En este caso el objeto MapCoche de la clase MapCoche
         Map<String, MapCoche> coche = new HashMap<>();
 
         // Asignamos datos a los mapas
@@ -26,19 +26,19 @@ public class MapMain {
         System.out.println(personas);
         System.out.println("------------------------------------------------");
 
-                    // FORMAS MÁS COMUNES DE ITERAR SOBRE LOS MAPAS
+                    // FORMAS MÁS COMUNES DE MANEJAR LOS DATOS DE LOS MAPAS
 
-        // 1. Con el bucle for recorremos las claves (key) del mapa personas y las mostramos en pantalla
+        // 1. Con el bucle for recorremos las claves ( keySet() ) del mapa personas y las mostramos en pantalla
         for(String key : personas.keySet()) {
             System.out.println(key);
         }
 
-        // 2. Con este otro for recorremos los valores del mapa personas y las mostramos en pantalla
+        // 2. Con este otro for recorremos los valores ( values() ) del mapa personas y las mostramos en pantalla
         for(String datos : personas.values()) {
             System.out.println(datos);
         }
 
-        // 3. Con este otro for recorremos las claves y valores del mapa personas y las mostramos en pantalla
+        // 3. Con este otro for recorremos las claves y valores ( entrySet() ) del mapa personas y las mostramos en pantalla
         for(Map.Entry<String, String> pares : personas.entrySet()) {
             System.out.println(pares.getKey() + " " + pares.getValue());
         }
