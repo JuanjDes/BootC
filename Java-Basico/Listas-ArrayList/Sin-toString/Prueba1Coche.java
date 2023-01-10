@@ -1,4 +1,4 @@
-        // EJEMPLO DE C&Oacute;DIGO PARA TRABAJAR CON LISTAS Y ARRAYLIST() SIN UTILIZAR toString()
+        // EJEMPLO DE CÓDIGO PARA TRABAJAR CON LISTAS Y ARRAYLIST() SIN UTILIZAR toString()
 
 package prueba1;
 
@@ -12,8 +12,8 @@ public class Prueba1Coche {
     }
 
     /* @Override
-    public String toString() {
-        return "Coche " +
+       public String toString() {
+         return "Coche " +
                 "name = '" + name + '\'' +
                 ' ';
     } */
