@@ -31,7 +31,7 @@ public class Main {
         /* para que nos muestre el contenido de cada referencia de memoria,
             creamos el método toString en la clase Coche */
 
-        // Ahora vamos a mostrar cada posición de la lista sin utilizar toString
+        // Ahora vamos a mostrar cada posición de la lista. Se muestra una debajo de otra
         for (Coche coche : coches) {
             System.out.println(coche);
         }
