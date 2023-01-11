@@ -1,2 +1,2 @@
 # BootC
-Ejercicios del OpenBootcamp
+EJERCICIOS Y CÓDIGO DE EJEMPLO DEL OPENBOOTCAMP
