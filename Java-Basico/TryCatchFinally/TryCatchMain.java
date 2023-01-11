@@ -15,7 +15,6 @@ public class TryCatchMain {
             System.out.println("Cerrando ficheros abiertos");
         }
 
-        // Después de mostrar el error sigue ejecutándose el código
-        System.out.println("Fin de programa");
+        System.out.println("Fin de programa"); // Después de mostrar el error sigue ejecutándose el código
     }
 }
