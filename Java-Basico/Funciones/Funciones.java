@@ -26,7 +26,7 @@ public class Funciones {
         // OPCIÓN 4: funciones con parámetros y con tipo de retorno
         System.out.println("================================");
         String nombre = "Juan Jose";
-        String apellido = "Guapo";
+        String apellido = "G.";
         String saludo = obtenerSaludo(nombre, apellido);
         System.out.println(saludo);
 
