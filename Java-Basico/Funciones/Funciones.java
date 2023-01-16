@@ -1,3 +1,5 @@
+                                            //   EJEMPLOS SENCILLOS DE USO DE FUNCIONES
+
 package com.company;
 
 
@@ -55,4 +57,5 @@ public class Funciones {
     static String obtenerSaludo(String nombre, String apellido) {   // Con parámetro y con retorno
         return "Buenas tardes " + nombre + " " + apellido;
     }
+    
 }
