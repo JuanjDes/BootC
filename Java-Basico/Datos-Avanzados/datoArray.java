@@ -1,4 +1,7 @@
 
+                            // MANEJO DE ARRAY UNIDIMENSIONAL
+
+
 public class datoArray {
 
     public static void main(String[] args) {
