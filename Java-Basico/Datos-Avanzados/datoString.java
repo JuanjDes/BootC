@@ -1,3 +1,5 @@
+                            
+                                //  MANEJO DE DATOS TIPO STRING
 
 public class datoString {
 
