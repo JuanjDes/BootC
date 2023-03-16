@@ -9,9 +9,9 @@ public class arrayBidimensional {
         // Vamos a crear un array bidimensional con 2 filas y 4 columnas
         int arrayBidi[][] = new int[2][4];
         arrayBidi[0][0] = 1; // Fila 0 columna 0 contiene el valor 1
-        arrayBidi[0][1] = 2; // Fila 0 columna 1 contiene el valor 1
-        arrayBidi[0][2] = 3; // Fila 0 columna 2 contiene el valor 1
-        arrayBidi[0][3] = 4; // Fila 0 columna 3 contiene el valor 1
+        arrayBidi[0][1] = 2; // Fila 0 columna 1 contiene el valor 2
+        arrayBidi[0][2] = 3; // Fila 0 columna 2 contiene el valor 3
+        arrayBidi[0][3] = 4; // Fila 0 columna 3 contiene el valor 4
 
         arrayBidi[1][0] = 10; // Fila 1 columna 0 contiene el valor 10
         arrayBidi[1][1] = 20; // Fila 1 columna 1 contiene el valor 20
