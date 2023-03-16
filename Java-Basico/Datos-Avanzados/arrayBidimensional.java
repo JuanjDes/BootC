@@ -1,3 +1,7 @@
+
+                                    // MANEJO DE ARRAY BIDIMENSIONAL
+
+
 public class arrayBidimensional {
 
     public static void main(String[] args) {
