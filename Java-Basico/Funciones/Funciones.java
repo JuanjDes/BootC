@@ -13,8 +13,8 @@ public class Funciones {
         // OPCIÓN 2: funciones sin parámetros y con tipo de retorno
         getMenu();
         System.out.println("================================");
-        System.out.println("Muestro directamente getManu \n" + getMenu());
-        // También puedo crear una variable que guarde getManu() y luego imprimimos la variable
+        System.out.println("Muestro directamente getMenu \n" + getMenu());
+        // También puedo crear una variable que guarde getMenu() y luego imprimimos la variable
         String menu = getMenu();
         System.out.println("================================");
         System.out.println("Muestro getMenu a través de variable \n" + menu);
