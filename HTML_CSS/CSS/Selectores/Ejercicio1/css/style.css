@@ -1,10 +1,10 @@
 .listacompra {width: 200px; height: 120px;
     background-color: rgb(228, 166, 86);
-    margin: 0px 10px;}
+    margin: 0px 10px;}  // Con este margin posicionamos en la página el div que contiene la lista de la compra
 
 .supermercados {width: 200px; height: 115px;
     background-color: rgb(228, 166, 86);
-    margin: -120px 220px; padding-top: 5px;}
-
+    margin: -120px 220px; padding-top: 5px;}  //Con este margin posicionamos el div que contiene los supermercados al lado del otro
+                                              //el -120px está en negativo para que retroceda (suba) de su posicion 
 #elemento-1 {color: red;}
 #lista1 #elemento-1 {font-size: 2rem;}
