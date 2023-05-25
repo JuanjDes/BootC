@@ -1,0 +1,10 @@
+.listacompra {width: 200px; height: 120px;
+    background-color: rgb(228, 166, 86);
+    margin: 0px 10px;}
+
+.supermercados {width: 200px; height: 115px;
+    background-color: rgb(228, 166, 86);
+    margin: -120px 220px; padding-top: 5px;}
+
+#elemento-1 {color: red;}
+#lista1 #elemento-1 {font-size: 2rem;}
