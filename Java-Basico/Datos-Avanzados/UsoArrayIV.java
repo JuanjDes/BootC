@@ -1,4 +1,4 @@
-// UNA DE LAS FORMAS DE INICIALIZAR UNA MATRIZ BIDIMENSIONAL DE 5*5. SE RECORRE CON BUCLE FOR-EACH
+                    // UNA DE LAS FORMAS DE INICIALIZAR UNA MATRIZ BIDIMENSIONAL DE 5*5. SE RECORRE CON BUCLE FOR-EACH
 
 package com.company;
 
@@ -14,8 +14,8 @@ public class UsoArrayIV {
                 {78,65,54,23,56}
         };
 
-        //Este primer bucle for-each mete la primera fila completa de array en el array declarado fila[]
-        //                SE VAN METIENDO FILAS COMPLETAS. POR ESO SE DECLARA fila COMO ARRAY
+        /* Este primer bucle for-each mete la primera fila completa de array en el array declarado fila[]
+                        SE VAN METIENDO FILAS COMPLETAS. POR ESO SE DECLARA fila COMO ARRAY */
         for (int[] fila:array) {
             System.out.println("");
             // Este segundo for-each (normal) recorre cada columna de fila y la muestra en pantalla
