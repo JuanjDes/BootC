@@ -20,7 +20,7 @@ public class UsoArrayV {
         System.out.println();
         System.out.println("----------------------------------------------------------");
       
-        // Este for es para que la 1ª fila de array nos muestre el saldo de partida (el que hemos introducido anteiormente)
+        // Este for es para que la 1ª fila de array nos muestre el saldo de partida (el que hemos introducido anteriormente)
         for (int i = 0; i < 6; i++) {
             array[0][i] = acumulado;
             System.out.printf("%1.2f", array[0][i]);  // Print con formato de 2 decimales
